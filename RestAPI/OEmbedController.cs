@@ -6,6 +6,13 @@ namespace OEmbedProxy.RestAPI
     [RoutePrefix("")]
     public class OEmbedController : ApiController
     {
+        private readonly IUserRepository _repository;
+
+        public OEmbedController(IUserRepository repository)
+        {
+            _repository = repository;
+        }
+
         // embed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDK4x-8JNmxI
 
         [HttpGet]

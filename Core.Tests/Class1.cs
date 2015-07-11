@@ -15,7 +15,7 @@ namespace OEmbedProxy.Core.Tests
             UriBuilder uriBuilder = new UriBuilder(vimeoScheme);
             uriBuilder.Password = "sdgf";
 
-            uriBuilder.
+            //uriBuilder.
         }
     }
 }

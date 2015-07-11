@@ -1,7 +1,6 @@
 ﻿using System.Web.Http;
 using Owin;
 using SimpleInjector;
-using SimpleInjector.Extensions.ExecutionContextScoping;
 using SimpleInjector.Integration.WebApi;
 
 namespace OEmbedProxy.RestAPI
